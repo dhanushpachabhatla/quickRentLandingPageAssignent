@@ -172,9 +172,6 @@
 }
 
 @media only screen and (max-width: 800px) {
-    .heading1 {
-        font-size: 1.1rem;
-    }
 
     .heading2 {
         font-size: 2.5rem;
@@ -255,6 +252,17 @@ a {
     transform: translate3d(-200%, 0, 0);
   }
 
+
+.icon-name{
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+}
+
+.icon-padding{
+    /* color: aqua; */
+    margin-top: 20px;
+}
 
 
 

@@ -158,9 +158,6 @@
     .heading1:hover {
         -webkit-text-stroke-width: 1px;
     }
-    .heading1 {
-        font-size: 0.8rem;
-    }
 
     .heading2 {
         font-size: 2rem;
