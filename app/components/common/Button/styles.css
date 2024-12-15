@@ -1,0 +1,21 @@
+.button{
+    background-color: rgb(155, 113, 210);
+    text-align: center;
+    font-weight: 600;
+    font-size: 1rem;
+    color: aliceblue;
+    border-radius: 1rem;
+    min-width: 160px;
+    min-height: 40px;
+    cursor: pointer;
+}
+
+.button:hover{
+    box-shadow: 3px 3px 10px rgba(58, 128, 233, 0.5);
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(117, 68, 197);
+}
+
+.btn{
+    margin: auto;
+}

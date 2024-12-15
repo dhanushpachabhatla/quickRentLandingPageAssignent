@@ -1,0 +1,245 @@
+
+
+/* logo */
+.navbar img {
+    border-radius: 30px;
+    margin-left: 3rem;
+}
+
+/* navbar */
+.navbar{
+    width: 100%;
+    position: fixed;
+    background-color: rgb(12, 12, 12);
+    opacity: 0.85;
+    display: flex;
+    gap: 3rem;
+    margin: 0.5rem 0.5rem;
+    padding: 1rem 1rem;
+    align-items: center;
+    height: 80px;
+}
+
+/* heading */
+.logo-heading{
+    width: 100%;
+}
+
+/* other details of navbar */
+.other-nav{
+    font-weight:lighter;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 4rem;
+    margin-right: 3rem;
+}
+.other-nav a{
+    color: rgb(255, 255, 255);
+}
+.other-nav a:hover{
+    color: rgb(201, 29, 72);
+}
+
+/* description */
+.first-desc{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+    margin: 1rem 1rem;
+    padding: 0.3rem 0.3rem;
+}
+
+.desc{
+    display: flex;
+    justify-content: center;
+}
+.desc h4{
+    margin-top: 150px;
+}
+
+
+.heading2:hover {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(125, 6, 30);
+    color:  rgb(255, 255, 255);
+    transition: all 1s;
+}
+.heading1:hover {
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(125, 6, 30);
+    color: rgb(0, 0, 0);
+    transition: all 1s;
+}
+
+@media only screen and (max-width: 1400px) {
+    .heading1{
+        font-size: 1.5rem;
+    }
+    .heading2{
+        font-size: 3.2rem;
+    }
+    .other-nav{
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .heading1{
+        font-size: 1.4rem;
+    }
+    .heading2{
+        font-size: 3rem;
+    }
+    .other-nav{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .heading1{
+        font-size: 1.3rem;
+    }
+    .heading2{
+        font-size: 3rem;
+    }
+    .other-nav{
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .heading1{
+        font-size: 1.2rem;
+    }
+    .heading2{
+        font-size: 2.8rem;
+    }
+    .other-nav{
+        font-size: 0.7rem;
+        gap: 3rem;
+    }
+}
+
+.drawer-component {
+    display: none;
+  }
+
+@media only screen and (max-width: 800px) {
+    .heading1{
+        font-size: 1.1rem;
+    }
+    .heading2{
+        font-size: 2.5rem;
+    }
+    .other-nav{
+        display: none;
+    }
+    .drawer-component {
+        display: block;
+    }
+    .drawer-div {
+        width: 40vw;
+        background-color: rgb(12, 12, 12);
+        height: 100vh;
+        padding: 0.5rem 1.5rem;
+      }
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .heading2:hover {
+        -webkit-text-stroke-width: 1.5px;
+    }
+    .heading1:hover {
+        -webkit-text-stroke-width: 1px;
+    }
+    .heading1 {
+        font-size: 0.8rem;
+    }
+
+    .heading2 {
+        font-size: 2rem;
+    }
+
+    .other-nav {
+        display: none;
+    }
+
+    .drawer-component {
+        display: block;
+    }
+}
+@media only screen and (max-width: 423px) {
+    .heading1 {
+        font-size: 1rem;
+    }
+
+    .heading2 {
+        font-size: 1.6rem;
+    }
+
+    .other-nav {
+        display: none;
+    }
+
+    .drawer-component {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 463px) {
+    .logo-heading{
+        font-size: 0.7em;
+    }
+    .navbar img {
+        width: 30px;
+        height: 30px;
+        margin-left: 2rem;
+    }
+    .heading1 {
+        font-size: 1rem;
+    }
+
+    .heading2 {
+        font-size: 1.6rem;
+    }
+
+    .other-nav {
+        display: none;
+    }
+
+    .drawer-component {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .logo-heading{
+        font-size: 0.6rem;
+    }
+    .navbar img {
+        margin-left: 2rem;
+        width: 30px;
+        height: 30px;
+    }
+    .heading1 {
+        font-size: 1rem;
+    }
+
+    .heading2 {
+        font-size: 1.6rem;
+    }
+
+    .other-nav {
+        display: none;
+    }
+
+    .drawer-component {
+        display: block;
+    }
+}

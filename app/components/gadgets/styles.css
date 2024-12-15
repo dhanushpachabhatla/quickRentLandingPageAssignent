@@ -1,0 +1,112 @@
+.gadget-listing {
+    padding: 50px;
+    /* background-color: #0a0a0a; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  
+  .gadget-table {
+    margin: auto;
+    width: 90%;
+    max-width: 700px;
+    border-collapse: collapse;
+  }
+  
+  .gadget-table th, .gadget-table td {
+    padding: 10px;
+    border: 1px solid #ffffff;
+    text-align: left;
+  }
+  
+  .gadget-table th {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+    .list-button {
+    padding: 5px 10px;
+    background-color: #fefefe;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .rent-button{
+    background-color: rgb(153, 106, 215);
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    min-width: 50px;
+    min-height: 20px;
+    cursor: pointer;
+  }
+  .rent-button:hover {
+    background-color: rgb(135, 80, 206);
+  }
+  
+  .cta-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  @media only screen and (max-width: 765px) {
+    .gadget-table th,td{
+      font-size: 0.8rem;
+      padding: 5px;
+    }
+    .rent-button{
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media only screen and (max-width: 640px) {
+    .gadget-table th,td{
+      font-size: 0.5rem;
+      padding: 3px;
+    }
+    .rent-button{
+      font-size: 0.5rem;
+      width: 60px;
+      height: 30px;
+    }
+  }
+  @media only screen and (max-width: 528px) {
+    .gadget-table th,td{
+      font-size: 0.5rem;
+      padding: 3px;
+    }
+    .rent-button{
+      font-size: 0.4rem;
+      width: 50px;
+      height: 20px;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    .gadget-table th,td{
+      font-size: 0.5rem;
+      padding: 1px;
+    }
+    .rent-button{
+      font-size: 0.4rem;
+      width: 40px;
+      height: 20px;
+    }
+}
+  @media only screen and (max-width: 412px) {
+    .gadget-table th,td{
+      font-size: 0.4rem;
+      padding: 1px;
+    }
+    .rent-button{
+      font-size: 0.4rem;
+      width: 40px;
+      height: 20px;
+    }
+}
